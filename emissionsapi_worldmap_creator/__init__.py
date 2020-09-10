@@ -178,6 +178,8 @@ def plot(
     title,
     legend_title,
     font_size,
+    vmin,
+    vmax,
 ):
     """Generate the plot and save it.
 
@@ -220,6 +222,8 @@ def plot(
             "label": legend_title,
             "orientation": "horizontal",
         },
+        vmin=vmin,
+        vmax=vmax,
     )
 
     logger.info("Loading world map")

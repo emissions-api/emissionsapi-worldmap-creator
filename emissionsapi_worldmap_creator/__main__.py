@@ -87,6 +87,18 @@ def parse_command_line():
         help="Size of the font on the image. Defaults to 100.",
     )
 
+    parser.add_argument(
+        "--vmin",
+        type=float,
+        help="value where the colormap starts."
+    )
+
+    parser.add_argument(
+        "--vmax",
+        type=float,
+        help="value where the colormap stops."
+    )
+
     parser.add_argument("product", help="Type of product to search for.")
     parser.add_argument(
         "day",
@@ -132,6 +144,8 @@ def main():
         args.title,
         args.legend_title,
         args.font_size,
+        args.vmin,
+        args.vmax,
     )
 
 
