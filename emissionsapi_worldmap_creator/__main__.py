@@ -2,7 +2,7 @@ import logging
 import datetime
 import argparse
 
-from emissionsapi_worldmap import get_points, plot
+from emissionsapi_worldmap_creator import get_points, plot
 
 logger = logging.getLogger(__name__)
 
