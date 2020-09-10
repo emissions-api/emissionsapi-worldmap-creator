@@ -60,13 +60,13 @@ def parse_command_line():
     parser.add_argument(
         "--pixels_x",
         default=8000,
-        help="Horizontal image size in pixels. Defaults to 1024.",
+        help="Horizontal image size in pixels. Defaults to 8000.",
     )
 
     parser.add_argument(
         "--pixels_y",
         default=4000,
-        help="Vertical image size in pixels. Defaults to 1024.",
+        help="Vertical image size in pixels. Defaults to 4000.",
     )
 
     parser.add_argument(

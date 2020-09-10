@@ -7,7 +7,7 @@ Like this one:
 
 .. image:: example.png
   :width: 400
-  :alt: Example World Map
+  :alt: https://github.com/emissions-api/emissionsapi-worldmap-creator/blob/master/example.png
 
 Emissions API itself gives easy access to satellite-based emission data.
 For more information take a look at our `website <https://emissions-api.org/>`_.
