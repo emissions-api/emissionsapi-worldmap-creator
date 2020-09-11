@@ -12,7 +12,7 @@ def read(filename):
 
 setup(
     name="emissionsapi-worldmap-creator",
-    version="0.1",
+    version="0.2",
     description="Emissions API's World Map image creator",
     author="Emissions API Developers",
     license="MIT",
