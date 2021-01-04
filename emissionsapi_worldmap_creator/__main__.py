@@ -60,17 +60,19 @@ def parse_command_line():
     parser.add_argument(
         "--pixels_x",
         default=8000,
+        type=int,
         help="Horizontal image size in pixels. Defaults to 8000.",
     )
 
     parser.add_argument(
         "--pixels_y",
         default=4000,
+        type=int,
         help="Vertical image size in pixels. Defaults to 4000.",
     )
 
     parser.add_argument(
-        "--dpi", default=96, help="DPI of the image. Defaulst to 96."
+        "--dpi", default=96, type=int, help="DPI of the image. Defaulst to 96."
     )
 
     parser.add_argument(
@@ -84,6 +86,7 @@ def parse_command_line():
     parser.add_argument(
         "--font-size",
         default=50,
+        type=int,
         help="Size of the font on the image. Defaults to 100.",
     )
 
